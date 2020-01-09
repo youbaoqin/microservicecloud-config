@@ -1,0 +1,16 @@
+spring:
+  # 环境 dev|test|prod
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev   #开发
+  application:
+    name: microservicecloud-config-qyb-dev
+
+---
+spring:
+  profiles: test  #测试
+  application:
+    name: microservicecloud-config-qyb-test
